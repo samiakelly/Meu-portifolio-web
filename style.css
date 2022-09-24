@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--corpo-segundo-backgrond);
+  overflow-y: scroll;
+}
+
+:root {
+  font-size: 100%;
+  --corpo-backgrond: #C7EAFF;
+  --corpo-segundo-backgrond: linear-gradient(90deg, #0c6db8, #245EFF, #02a2ff);
+  --corpo-terceiro-backgrond: #0d49b7;
+}
+
+header {
+  background: var(--corpo-segundo-backgrond);
+  left: 0;
+  right: 0;
+  height: 8vh;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+}
+
+nav {
+  margin-top: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--corpo-backgrond);
+  font-size: 20px;
+  margin: 2em 1em;
+}
+
+nav a:hover {
+  color: #61bef4;
+  text-decoration: underline;
+}
+
+.informacao-contato {
+  width: 1020px;
+  height: 480px;
+  margin: 0 auto;
+  padding-top: 48px;
+  position: relative;
+  color: var(--corpo-backgrond);
+}
+
+.informacao h1 {
+  font-size: 72px;
+  margin-top: 64px;
+
+}
+
+.informacao h2 {
+  margin-top: 16px;
+  font-weight: 700;
+  font-style: italic;
+
+}
+
+.contato {
+  display: flex;
+  gap: 1em;
+}
+
+.icone-gmail,
+.icone-whatsapp,
+.icone-mapa {
+  width: 30px;
+}
+
+.contato p {
+  font-size: 20px;
+  margin-top: 2px;
+
+}
+
+.foto {
+  position: absolute;
+  width: 300px;
+  aspect-ratio: 1;
+  background: url("icones/luffy.jpg");
+  background-position: center;
+  background-size: cover;
+  right: 134px;
+  top: 90px;
+  border-radius: 50%;
+  border: var(--corpo-terceiro-backgrond) 16px solid;
+  margin-top: 24px;
+  margin-left: 70px;
+}
+
+.midias {
+  position: absolute;
+  right: 70px;
+  top: 170px;
+}
+
+.midias img {
+  width: 48px;
+  display: block;
+  margin-bottom: 8px;
+  transition: 0.7s transform;
+}
+
+.midias img:hover {
+  transform: scale(1.4);
+}
+
+main {
+  background: var(--corpo-backgrond);
+  padding: 48px 0;
+  color: var(--corpo-terceiro-backgrond);
+}
+
+main section {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.sobre-min {
+  display: flex;
+  gap: 3em;
+}
+
+.div-sobre-min {
+  width: 480px;
+  margin: 5em 0;
+  flex-direction: column;
+}
+
+.titulo {
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 48px;
+}
+
+.div-sobre-min p {
+  text-align: left;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.imagem-sobremin {
+  width: 500px;
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 1px 1px 16px #0d49b7;
+}
+
+.margem-caixas {
+  margin: 2.3%;
+}
+
+.background-texto {
+  background-color: var(--corpo-terceiro-backgrond);
+  box-shadow: 1px 1px 16px #0d49b7;
+  color: rgb(255, 229, 229);
+  padding: 18px;
+  display: inline-block;
+  border-radius: 8px;
+  width: 45%;
+  box-sizing: border-box;
+  vertical-align: top;
+  height: 100px;
+}
+
+.habilidades img {
+  width: 139px;
+}
+
+.interesses img {
+  width: 60px;
+  margin-right: 1em;
+  cursor: pointer;
+  transition: 0.7s transform;
+}
+
+.interesses img:hover {
+  transform: scale(1.3);
+}
+
+footer {
+  height: 180px;
+  padding-top: 32px;
+  text-align: center;
+  color: var(--corpo-backgrond);
+  font-size: 20px;
+
+}
+
+.footer-informacoes {
+  width: 1020px;
+  margin: 0 auto 52px;
+}
+
+.fale-comigo {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+footer p a {
+  color: var(--corpo-backgrond);
+}
+
+.samia-kelly {
+  margin-top: 2em;
+}
