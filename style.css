@@ -144,7 +144,7 @@ main section {
 
 .div-sobre-min p {
   text-align: left;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.6;
   margin-bottom: 2em;
 }
@@ -171,6 +171,52 @@ main section {
   box-sizing: border-box;
   vertical-align: top;
   height: 100px;
+  font-size: 16px;
+}
+
+.div-projetos {
+  display: flex;
+}
+
+
+.div-card {
+  background-color: #0d49b7;
+  width: 30%;
+  margin: 1rem;
+  height: 55vh;
+  padding: 8px;
+  color: white;
+  border-radius: 8px;
+  font-size: 17px;
+  box-shadow: 1px 1px 16px #0d49b7;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.div-card img {
+  width: 100%;
+  height: auto;
+
+}
+
+.div-card P {
+  margin-bottom: 2rem;
+}
+
+.div-card a {
+  text-decoration: none;
+  background-color: var(--corpo-backgrond);
+  color: var(--corpo-terceiro-backgrond);
+  padding: 8px;
+  margin: 30px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.7s;
+}
+
+.div-card a:hover {
+  background-color: #55a9ea;
 }
 
 .habilidades img,
@@ -329,6 +375,18 @@ footer p a {
   .habilidades img,
   .interesses img {
     width: 50px;
+  }
+
+  .div-projetos {
+    display: grid;
+
+
+  }
+
+  .div-card {
+    width: auto;
+    height: 55vh;
+
   }
 
 
