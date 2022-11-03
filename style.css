@@ -203,6 +203,7 @@ main section {
 .div-card {
   background-color: var(--corpo-terceiro-backgrond);
   width: 30%;
+  height: auto;
   margin: 1rem;
   padding: 8px;
   color: white;
@@ -326,7 +327,7 @@ footer p a {
     width: 120px;
     top: 16px;
     border-width: 8px;
-    background-size: 120px;
+
     background-repeat: no-repeat;
   }
 
@@ -409,7 +410,7 @@ footer p a {
 
   .div-card {
     width: auto;
-    height: 60vh;
+
 
   }
 
