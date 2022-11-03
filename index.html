@@ -12,7 +12,7 @@
   <body>
     <header>
       <nav>
-        <a href="#id-sobre-min">sobre min</a>
+        <a href="#id-sobre-min">sobre mim</a>
         <a href="#id-formacao">formação</a>
         <a href="#id-projetos">projetos</a>
         <a href="#id-habilidades">habilidades</a>
@@ -76,20 +76,20 @@
           class="imagem-sobremin margem-caixas"
         />
         <div class="div-sobre-min">
-          <h3 class="titulo">Sobre min</h3>
+          <h3 class="titulo">Sobre mim</h3>
 
           <p>
-            Óla me chamo Samia tenho 24 anos, sou cristã, nordestina, atleta,
+            Olá me chamo Samia tenho 24 anos, sou cristã, nordestina, atleta,
             aventureira e apaixonada por tecnologia. Faz um ano que estudo
             programação, minha primeira linguagem foi python, e me apaixonava
-            por cada algoritimo que eu desenvolvia, mas no momento decidir focar
+            por cada algoritmo que eu desenvolvia, mas no momento decidir focar
             mais meus estudos em HTML, CSS e javascript. Pude ver o resultado
             dos meus estudos quando desenvolvi meu própria website, e algumas
             aplicações web, agora com confiança quero buscar minha primeira
             oportunidade em um ambiente corporativo. Apesar de no momento buscar
             trabalho como desenvolvedora web, tenho muito interesse por
             inteligência artificial e linguagem de máquina, futuramente quando
-            estiver estável finaceiramente pretendo me graduar em ciência da
+            estiver estável financeiramente pretendo me graduar em ciência da
             computação e voltar a estudar mais sobre Python e expandir mais o
             meu conhecimento técnico.
           </p>
@@ -139,14 +139,20 @@
               Dio.Site em resolução para desktop e mobile.
             </p>
 
-            <a
-              href="https://github.com/samiakelly/website-spider-man.git"
-              target="_blank"
-              >Código</a
-            >
-            <a href="https://multiverso-spider-man.netlify.app/" target="_blank"
-              >Site</a
-            >
+            <button>
+              <a
+                href="https://github.com/samiakelly/website-spider-man.git"
+                target="_blank"
+                >Código</a
+              >
+            </button>
+            <button>
+              <a
+                href="https://multiverso-spider-man.netlify.app/"
+                target="_blank"
+                >Site</a
+              >
+            </button>
           </div>
           <div class="div-card">
             <img
@@ -158,14 +164,18 @@
               criado para divulgar meu sistema de rpg sociedade éden. Site em
               resolução para desktop e mobile.
             </p>
-            <a
-              href="https://github.com/samiakelly/site-sociedade-eden.git"
-              target="_blank"
-              >Código</a
-            >
-            <a href="https://sociedade-eden.netlify.app/" target="_blank"
-              >Site</a
-            >
+            <button>
+              <a
+                href="https://github.com/samiakelly/site-sociedade-eden.git"
+                target="_blank"
+                >Código</a
+              >
+            </button>
+            <button>
+              <a href="https://sociedade-eden.netlify.app/" target="_blank"
+                >Site</a
+              >
+            </button>
           </div>
           <div class="div-card">
             <img
@@ -178,35 +188,84 @@
               resolução para desktop e mobile.
             </p>
 
-            <a
-              href="https://github.com/samiakelly/mine-game-mentalista.git"
-              target="_blank"
-              >Código</a
-            >
-            <a href="https://minegame-omentalista.netlify.app/" target="_blank"
-              >Site</a
-            >
+            <button>
+              <a
+                href="https://github.com/samiakelly/mine-game-mentalista.git"
+                target="_blank"
+                >Código</a
+              >
+            </button>
+            <button>
+              <a
+                href="https://minegame-omentalista.netlify.app/"
+                target="_blank"
+                >Site</a
+              >
+            </button>
           </div>
         </div>
       </section>
       <section class="habilidades" id="id-habilidades">
         <h3 class="titulo">Habilidades</h3>
-        <img src="icones/html.png" alt="Icone da logo do html" />
-        <img src="icones/css.png" alt="Icone da logo do css" />
-        <img src="icones/javascript.png" alt="Icone da logo do javascript" />
+        <img
+          src="icones/html.png"
+          onclick="explicacaoHtml()"
+          alt="Icone da logo do html"
+        />
+        <img
+          onclick="explicacaoCss()"
+          src="icones/css.png"
+          alt="Icone da logo do css"
+        />
+        <img
+          onclick="explicacaoJavaScript()"
+          src="icones/javascript.png"
+          alt="Icone da logo do javascript"
+        />
 
-        <img src="icones/node-js.png" alt="Icone da logo do node-js" />
-        <img src="icones/git.png" alt="Icone da logo do git" />
+        <img
+          onclick="explicacaoNode()"
+          src="icones/node-js.png"
+          alt="Icone da logo do node-js"
+        />
+        <img
+          onclick="explicacaoGit()"
+          src="icones/git.png"
+          alt="Icone da logo do git"
+        />
+        <h3>
+          <p id="texto-habilidades" class="texto-explicacao">
+            Clique nas imagens para saber mais sobre a tecnologia.
+          </p>
+        </h3>
       </section>
       <section class="interesses" id="id-interesses">
         <h3 class="titulo">Interesses</h3>
-        <img src="icones/python-.png" alt="Icone da logo do python" />
-        <img src="icones/django-.png" alt="Icone da logo do django" />
         <img
+          onclick="explicacaoPython()"
+          src="icones/python-.png"
+          alt="Icone da logo do python"
+        />
+        <img
+          onclick="explicacaoDjango()"
+          src="icones/django-.png"
+          alt="Icone da logo do django"
+        />
+        <img
+          onclick="explicacaoReactNative()"
           src="icones/react-native.png"
           alt="Icone da logo do react.native"
         />
-        <img src="icones/react.png" alt="Icone da logo do react.js" />
+        <img
+          onclick="explicacaoReact()"
+          src="icones/react.png"
+          alt="Icone da logo do react.js"
+        />
+        <h3>
+          <p id="texto-interesses" class="texto-explicacao">
+            Clique nas imagens para saber mais sobre a tecnologia.
+          </p>
+        </h3>
       </section>
       <section class="soft-skills" id="id-soft-skills">
         <h3 class="titulo">Soft Skills</h3>

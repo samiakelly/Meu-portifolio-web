@@ -14,8 +14,8 @@ body {
 :root {
   font-size: 100%;
   --corpo-backgrond: #C7EAFF;
-  --corpo-segundo-backgrond: linear-gradient(90deg, #0c6db8, #245EFF, #02a2ff);
-  --corpo-terceiro-backgrond: #0d49b7;
+  --corpo-segundo-backgrond: linear-gradient(90deg, #3A0765, #6f11bd, #9d30f6);
+  --corpo-terceiro-backgrond: #2d054e;
 }
 
 header {
@@ -87,9 +87,10 @@ nav a:hover {
   position: absolute;
   width: 300px;
   aspect-ratio: 1;
-  background: url("imagens/foto.png");
+  background: url("imagens/foto-samia.png");
   background-position: center;
-  background-size: 290px;
+  background-size: cover;
+  background-repeat: no-repeat;
   right: 134px;
   top: 90px;
   border-radius: 50%;
@@ -174,16 +175,35 @@ main section {
   font-size: 16px;
 }
 
+.habilidades img,
+.interesses img {
+  cursor: pointer;
+}
+
+.texto-explicacao {
+  background-color: var(--corpo-terceiro-backgrond);
+  box-shadow: 1px 1px 16px #0d49b7;
+  color: rgb(255, 229, 229);
+  padding: 15px;
+  display: inline-block;
+  border-radius: 8px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  vertical-align: top;
+  font-size: 16px;
+}
+
 .div-projetos {
   display: flex;
 }
 
 
+
+
 .div-card {
-  background-color: #0d49b7;
+  background-color: var(--corpo-terceiro-backgrond);
   width: 30%;
   margin: 1rem;
-  height: 55vh;
   padding: 8px;
   color: white;
   border-radius: 8px;
@@ -199,24 +219,28 @@ main section {
 
 }
 
-.div-card P {
-  margin-bottom: 2rem;
-}
 
-.div-card a {
-  text-decoration: none;
+
+.div-card button {
+
   background-color: var(--corpo-backgrond);
   color: var(--corpo-terceiro-backgrond);
   padding: 8px;
-  margin: 30px;
+  margin: 20px 30px;
+  border: none;
   border-radius: 10px;
   text-transform: uppercase;
   font-weight: bold;
   transition: 0.7s;
 }
 
-.div-card a:hover {
+.div-card button:hover {
   background-color: #55a9ea;
+
+}
+
+.div-card a {
+  text-decoration: none;
 }
 
 .habilidades img,
