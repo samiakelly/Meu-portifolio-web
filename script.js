@@ -19,10 +19,10 @@ function explicacaoJavaScript() {
   elemento.innerHTML = menssagemJavaScript
 }
 
-function explicacaoNode() {
-  let menssagemNode =
-    "De acordo com sua definição oficial, o Node é um runtime, que nada mais é do que um conjunto de códigos, APi's, ou seja, são bibliotecas responsáveis pelo tempo de execução '(é o que faz o seu programa rodar)' que funciona como um interpretador de JavaScript fora do ambiente do navegador web."
-  elemento.innerHTML = menssagemNode
+function explicacaoReact() {
+  let menssagemReact =
+    'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.'
+  elemento.innerHTML = menssagemReact
 }
 
 function explicacaoGit() {
@@ -43,10 +43,10 @@ function explicacaoDjango() {
   outroElemento.innerHTML = menssagemDjango
 }
 
-function explicacaoReact() {
-  let menssagemReact =
-    'O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.'
-  outroElemento.innerHTML = menssagemReact
+function explicacaoNode() {
+  let menssagemNode =
+    "De acordo com sua definição oficial, o Node é um runtime, que nada mais é do que um conjunto de códigos, APi's, ou seja, são bibliotecas responsáveis pelo tempo de execução '(é o que faz o seu programa rodar)' que funciona como um interpretador de JavaScript fora do ambiente do navegador web."
+  outroElemento.innerHTML = menssagemNode
 }
 
 function explicacaoReactNative() {
